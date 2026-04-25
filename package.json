@@ -20,6 +20,12 @@
     "xss": "^1.0.15",
     "zod": "^3.23.8"
   },
+  "overrides": {
+    "lucide-react": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
+  },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^19",
